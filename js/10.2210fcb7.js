@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[10],{5218:function(n,e,t){"use strict";t.r(e);var a=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[t("admin")],1)},i=[],o=t("f529"),c={name:"AdminHome",components:{Admin:o["a"]}},l=c,s=t("2877"),u=Object(s["a"])(l,a,i,!1,null,null,null);e["default"]=u.exports}}]);

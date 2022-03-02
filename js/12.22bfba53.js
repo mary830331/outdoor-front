@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[12],{da5e:function(n,e,t){"use strict";t.r(e);var a=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[t("admin")],1)},i=[],o=t("f529"),r={name:"Adminorders",components:{Admin:o["a"]}},s=r,c=t("2877"),d=Object(c["a"])(s,a,i,!1,null,null,null);e["default"]=d.exports}}]);
