@@ -6,13 +6,11 @@
   "author": "mary830331 <sara830331@gmail.com>",
   "private": true,
   "scripts": {
-    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar serve",
+    "lint": "eslint --ext .js,.vue ./",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar dev",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar build",
-    "build:pwa": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar build -m pwa",
-    "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar lint",
     "serve-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar serve",
-    "build-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar build",
-    "lint-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar lint"
+    "build-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.12.5",
