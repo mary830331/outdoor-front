@@ -12,7 +12,7 @@ const routes = [
       title: '戶外社群'
     },
     children: [
-      { path: '', component: () => import('pages/Index') }
+      { path: '', component: () => import('pages/Index/Index.vue') }
     ]
   },
   {
