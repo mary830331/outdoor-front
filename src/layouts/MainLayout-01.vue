@@ -46,9 +46,9 @@
         </div>
 
         <div side class="row avatar01  user-name">
-          <q-avatar size="50px">
-          <img :src='user.image'>
-            <q-badge floating color="teal">5</q-badge>
+          <q-avatar size="50px" >
+          <img to="/personalfile" :src='user.image'>
+            <q-badge floating color="teal">{{ user.group }}</q-badge>
           </q-avatar>
           <div class="q-px-sm column">
             <q-item v-if="!user.isLogin"><a @click="LogIn = true" v-if="!user.isLogin" >登入</a></q-item>

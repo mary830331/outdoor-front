@@ -32,14 +32,14 @@
 }
 #y-bg{
   position: absolute;
-  top: 60%;
+  top: 55%;
 }
 .q-item{
   min-height: 30px;
   padding: 0;
 }
 #card{
-top: -100px;
+  top: -400px;
   position: relative;
   z-index: 999;
 }
@@ -98,10 +98,16 @@ padding: 25px;
   background: rgba(255,255,255,0.5);
   backdrop-filter: blur(5px);
 }
-#mountion-bg {
-  top: -50px;
-  width: 900px;
+#scene{
   position: relative;
+  top: -320px;
+  width: 1980px;
+}
+.mountion-bg {
+  position: relative;
+  top: -180px;
+  width: 1980px;
+  z-index: 999;
 }
 .q-btn__wrapper{
     min-height: 50px;
@@ -205,7 +211,7 @@ z-index: 99999;
   padding: 0;
 }
 .menu-list{
-  display: none;
+  visibility: hidden;
   color: white;
   }
 .bg-000{
@@ -332,9 +338,14 @@ z-index: 99999;
   top: -50px;
 }
 #card{
-top: -300px;
+top: -400px;
   position: relative;
   z-index: 999;
+}
+#scene{
+  position: relative;
+  top: -440px;
+  width: 1980px;
 }
 }
 @media (min-width:1200px){
@@ -364,6 +375,6 @@ top: -300px;
   position: relative;
 }
 #card{
-top: -380px;
+top: -500px;
 }
 }

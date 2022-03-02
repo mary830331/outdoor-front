@@ -143,7 +143,6 @@ export default {
           authorization: 'Bearer ' + this.$store.getters['user/user'].token
         }
       })
-      console.log(data)
       for (const d of data.result) {
         this.products.push(d.product)
       }

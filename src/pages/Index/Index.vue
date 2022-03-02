@@ -3,7 +3,21 @@
     <video id="myVideo" autoplay loop muted>
       <source type="video/mp4" src="../../assets/pexels-rodnae-productions-8083048.mp4">
     </video>
-    <img id="mountion-bg" src="../../assets/m.png" alt="">
+    <q-parallax id="scene">
+      <template v-slot:media :speed="0.01">
+          <img style="top: -120px;" src="../../assets/m2.png">
+      </template>
+      <template v-slot:content="scope">
+        <div
+            class="mountion-bg"
+          :style="{
+            top: (scope.percentScrolled * 30) + '%'
+          }"
+        >
+          <img style="width: 1980px;"  src="../../assets/m.png" alt="">
+        </div>
+      </template>
+    </q-parallax>
     <section-cards/>
     <img id="y-bg" src="../../assets/bg-y.png" alt="">
     <div id="signup" class="row justify-center cc">
