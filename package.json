@@ -6,11 +6,11 @@
   "author": "mary830331 <sara830331@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar dev",
+    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar serve",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar build",
     "build:pwa": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar build -m pwa",
     "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && quasar lint",
-    "dev-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar dev",
+    "serve-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar serve",
     "build-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar build",
     "lint-linux": "export SET NODE_OPTIONS=--openssl-legacy-provider; quasar lint"
   },
